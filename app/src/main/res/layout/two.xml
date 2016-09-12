@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_alignParentTop="true"
+        android:id="@+id/frameLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:textSize="70px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名："
+            android:id="@+id/textView"
+            android:gravity="center"
+            android:layout_gravity="left|center_vertical" />
+
+        <EditText
+            android:textSize="60px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint ="ipone  name"
+            android:id="@+id/textView2"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#0a0a8c"
+        android:textColor="#ffffff"
+        android:textSize="50px"
+        android:id="@+id/button"
+        android:layout_below="@+id/frameLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/frameLayout"
+        android:layout_alignEnd="@+id/frameLayout"
+        android:text="登录" />
+
+
+
+</LinearLayout>
