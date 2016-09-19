@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="姓名"
+            android:padding="20dp"
+            android:textSize="30sp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <EditText
+            android:id="@+id/inputEtId"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:hint="input name!"
+            android:enabled="true"
+            android:textSize="30sp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loginBtId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#eeeeee"
+        android:visibility="visible"
+        android:drawablePadding="10dp"
+        android:background="@color/colorPrimaryDark"
+        />
+</LinearLayout>
